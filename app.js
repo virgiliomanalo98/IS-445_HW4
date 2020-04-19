@@ -23,3 +23,12 @@ function changeSize() {
             document.getElementById("balloonImg").innerHTML = "Done";
             document.removeEventListener('keyup', changeSize);
         }
+        else{
+            if(bSize==""){
+                bSize=30;
+            }
+            var deflateSize = parseInt(bSize) - 10;
+            document.getElementById("balloonImg").style.fontSize = deflateSize.toString() +"px";
+        }        
+    }
+}
