@@ -17,3 +17,9 @@ function changeSize() {
         }
         
     }
+    else if (e == 68){
+        console.log("d was pressed");
+        if(parseInt(bSize)==0){
+            document.getElementById("balloonImg").innerHTML = "Done";
+            document.removeEventListener('keyup', changeSize);
+        }
