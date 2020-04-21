@@ -15,7 +15,6 @@ function changeSize() {
             var inflate = parseInt(bSize) + 10;
             document.getElementById("balloon").style.fontSize=inflate.toString()+"px";
         }
-        
     }
     else if (e == 68){
         console.log("d was pressed");
