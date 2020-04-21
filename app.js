@@ -12,8 +12,8 @@ function changeSize() {
             if(bSize==""){
                 bSize=30;
             }
-            var inflateSize = parseInt(bSize) + 5;
-            document.getElementById("balloon").style.fontSize=inflateSize.toString()+"px";
+            var inflate = parseInt(bSize) + 10;
+            document.getElementById("balloon").style.fontSize=inflate.toString()+"px";
         }
         
     }
@@ -27,8 +27,8 @@ function changeSize() {
             if(bSize==""){
                 bSize=30;
             }
-            var deflateSize = parseInt(bSize) - 10;
-            document.getElementById("balloon").style.fontSize = deflateSize.toString() +"px";
+            var deflate = parseInt(bSize) - 10;
+            document.getElementById("balloon").style.fontSize = deflate.toString() +"px";
         }        
     }
 }
