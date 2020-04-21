@@ -6,7 +6,7 @@ function changeSize() {
     if (e == 73){
         if (parseInt(bSize)>60){
             document.getElementById("balloon").innerHTML = "💥";
-            document.removeEventListener('keyup', changeSize);
+            document.removeEventListener('keydown', changeSize);
         }
         else{
             if(bSize==""){
